@@ -1,0 +1,27 @@
+# Companion - Dependências
+# Instale com: pip install -r requirements.txt
+
+# Interface gráfica
+PyQt6>=6.6.0
+
+# Áudio
+sounddevice>=0.4.6
+soundfile>=0.12.1
+numpy>=1.24.0
+
+# STT - Transcrição de voz
+faster-whisper>=1.0.0
+
+# Wake Word
+openwakeword>=0.6.0
+
+# LLM (comunicação com Ollama - já roda separado)
+requests>=2.31.0
+
+# RAG - Base de conhecimento local
+chromadb>=0.5.0
+
+# Web scraping (para adicionar sites à base RAG)
+beautifulsoup4>=4.12.0
+
+# Piper TTS é instalado separado — veja o README
